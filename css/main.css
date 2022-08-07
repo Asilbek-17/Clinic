@@ -1890,3 +1890,162 @@ body{
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.faq {
+  padding-top: 118px;
+  padding-bottom: 270px;
+}
+
+.faq__info {
+  position: relative;
+}
+
+.faq__start {
+  width: 447px;
+  margin-left: 80px;
+}
+
+.faq__cat {
+  position: absolute;
+  top: calc(50% - 270px);
+  left: calc(50% + 150px);
+}
+
+.faq__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.faq__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.faq__link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #78C0DE;
+  padding: 15px 38px 15px 38px;
+  border-radius: 3px;
+  margin-bottom: 83px;
+  text-decoration: none;
+}
+
+.faq__link::before  {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 6px;
+  margin-bottom: -4px;
+  background-image: url("../images/document\ 1.svg");
+}
+
+.det {
+  width: 730px;
+  margin-left: 80px;
+  margin-bottom: 18px;
+  padding-top: 30px;
+  padding-left: 63px;
+  padding-bottom: 32px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.det:nth-child(4) .det__sum {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.det:last-child .det__sum {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+.det_start {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.det__sum {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #333333;
+  list-style: none;
+  cursor: pointer;
+}
+
+.det__text {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+  margin: 0;
+  margin-right: 28px;
+}
+
+.det__text::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/pet-faq.svg");
+  margin-right: 7px;
+}
+
+.det__span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #78C0DE;
+}
+
+.det__str {
+  position: absolute;
+  top: calc(50% + 10px) ;
+  right: calc(0% + 21px) ;
+  margin-left: auto;
+  margin-right: 41px;
+  transition: .5s;
+}
+
+.det[open] .det__str {
+  transition: .5s;
+  transform: rotate(180deg);
+}
+
+.det__text2 {
+  width: 577px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 0;
+}
+
+.faq__bird {
+  position: absolute;
+  top: calc(50% + 800px) ;
+  left: calc(50% + 200px) ;
+}
