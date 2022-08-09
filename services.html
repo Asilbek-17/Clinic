@@ -53,11 +53,11 @@
               <a class="end-box__link" href="./FAQ.html">FAQ</a>
             </li>
             <li class="end-box__item">
-              <a class="end-box__link" href="#!">Контакты</a>
+              <a class="end-box__link" href="./contact.html">Контакты</a>
             </li>
           </ul>
           <div class="end-box__box-link">
-            <a class="end-box__link2" href="#!">Задать вопрос</a>
+            <button class="end-box__link2 js-open-btn" type="button">Задать вопрос</button>
           </div>
         </div>
     </header>
@@ -172,7 +172,7 @@
               <li class="foot__item">
                 <a class="foot__link" href="#!">Полезные Статьи</a>
                 <a class="foot__link" href="./FAQ.html">FAQ</a>
-                <a class="foot__link" href="#!">Контакты</a>
+                <a class="foot__link" href="./contact.html">Контакты</a>
               </li>
             </ul>
             <div  class="foot__span">
@@ -197,5 +197,24 @@
           <p class="end-text">© 2020 example. All Rights Reserved.</p>
         </div>
       </footer>
+      <div class="modal">
+        <div class="modal__box">
+          <button class="modal__btn1 js-close-btn"></button>
+          <div class="modal__start">
+            <p class="modal__text">Авторизация:</p>
+            <a class="modal__link" href="#!">Войти через Google</a>
+            <a class="modal__link1" href="#!">Войти через Facebook</a>
+          </div>
+          <div class="modal__form">
+            <h2 class="modal__title">Задать вопрос</h2>
+            <form class="net__form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+              <input class="net__inp modal-inp" type="text" name="user_name" placeholder="Ваше имя" aria-label="Enter your name" minlength="2" required>
+              <textarea class="net-textare modal-inp" cols="30" rows="10" placeholder="Опишите Ваш вопрос.                                     Например: в каком возрасте можно прививать от бешенства?" name="user_message" aria-label="Write your message" minlength="3" ></textarea>
+              <button class="modal__btn" type="submit">Задать нам вопрос</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
