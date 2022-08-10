@@ -41,7 +41,7 @@
               <a class="end-box__link" href="./index.html">Главная</a>
             </li>
             <li class="end-box__item">
-              <a class="end-box__link" href="#!">О Клинике</a>
+              <a class="end-box__link" href="./about.html">О Клинике</a>
             </li>
             <li class="end-box__item">
               <a class="end-box__link" href="./services.html">Наши Услуги</a>
@@ -108,7 +108,7 @@
             <ul class="foot__list">
               <li class="foot__item">
                 <a class="foot__link" href="#!">Главная</a>
-                <a class="foot__link" href="#!">О Клинике</a>
+                <a class="foot__link" href="./about.html">О Клинике</a>
                 <a class="foot__link" href="./services.html">Наши Услуги</a>
               </li>
               <li class="foot__item">
@@ -139,5 +139,24 @@
           <p class="end-text">© 2020 example. All Rights Reserved.</p>
         </div>
     </footer>
+    <div class="modal">
+      <div class="modal__box">
+        <button class="modal__btn1 js-close-btn"></button>
+        <div class="modal__start">
+          <p class="modal__text">Авторизация:</p>
+          <a class="modal__link" href="#!">Войти через Google</a>
+          <a class="modal__link1" href="#!">Войти через Facebook</a>
+        </div>
+        <div class="modal__form">
+          <h2 class="modal__title">Задать вопрос</h2>
+          <form class="net__form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+            <input class="net__inp modal-inp" type="text" name="user_name" placeholder="Ваше имя" aria-label="Enter your name" minlength="2" required>
+            <textarea class="net-textare modal-inp" cols="30" rows="10" placeholder="Опишите Ваш вопрос.                                     Например: в каком возрасте можно прививать от бешенства?" name="user_message" aria-label="Write your message" minlength="3" ></textarea>
+            <button class="modal__btn" type="submit">Задать нам вопрос</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>

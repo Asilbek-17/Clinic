@@ -2320,3 +2320,117 @@ body{
   width: 700px;
   height: 466px;
 }
+
+.about {
+  padding-top: 117px;
+  background-image: url("../images/about-top-bg.png");
+  background-position: calc(50%) calc(50% - 810px);
+  background-repeat: no-repeat;
+}
+
+.about__info {
+  width: 411px;
+  margin-left: 80px;
+  margin-bottom: 290px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.about__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about__item:first-child{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #949494;
+  background-color: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+  padding-top: 127px;
+  padding-right: 66px;
+  padding-bottom: 140px;
+  background-image: url("../images/bg-home.png");
+  background-position: calc(50% - 365px) calc(50%);
+  background-size: 705px 449px;
+  background-repeat: no-repeat;
+}
+
+.about__item__box {
+  width: 557px;
+  margin-left: auto;
+}
+
+.about__span {
+  color: #FFBD54;
+}
+
+.about__item:nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  padding-top: 128px;
+  padding-bottom: 221px;
+  padding-left: 177px;
+  background-image: url("../images/about-dog-bg.png");
+  background-position: calc(50% + 320px) calc(50%);
+  background-repeat: no-repeat;
+}
+
+.about__item__info {
+  width: 494px;
+  margin-right: auto;
+}
+
+.about__text2 {
+  margin: 0;
+  margin-bottom: 19px;
+}
+
+.bottom {
+  padding-top: 100px;
+  padding-bottom: 300px;
+  padding-left: 177px;
+  background-image: url("../images/bottom-bg.png");
+  background-position: calc(50% + 100px) calc(50% - 100px);
+  background-repeat: no-repeat;
+}
+
+.bottom__info {
+  width: 416px;
+}
+
+.bottom__title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 48px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.bottom__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+}
